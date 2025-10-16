@@ -1,0 +1,7 @@
+.div-graficos {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 32px;
+}
