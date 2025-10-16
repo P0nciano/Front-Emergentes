@@ -1,0 +1,9 @@
+{
+  "rootDirectory": "front",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
