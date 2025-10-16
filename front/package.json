@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npx ts-node-dev --respawn index.ts",
-    "vercel-build": "npx prisma migrate deploy"
-    
+    "build": "vite build",
+    "dev": "npx ts-node-dev --respawn index.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
