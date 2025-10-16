@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx ts-node-dev --respawn index.ts",
     "vercel-build": "npx prisma migrate deploy",
-    "postinstall": "prisma generate"
+    
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
