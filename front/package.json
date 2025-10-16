@@ -4,21 +4,22 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "npx ts-node-dev --respawn index.ts"
+  "dev": "npx ts-node-dev --respawn index.ts",
+  "vercel-build": "npx prisma migrate deploy"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.11",
-    "@types/react-icons": "^2.2.7",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-hook-form": "^7.62.0",
-    "react-icons": "^5.5.0",
-    "react-router-dom": "^6.30.1",
-    "sonner": "^2.0.7",
-    "tailwindcss": "^4.1.11",
-    "victory": "^37.3.6",
-    "zustand": "^5.0.8"
+  "@tailwindcss/vite": "^4.1.11",
+  "@types/react-icons": "^2.2.7",
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0",
+  "react-hook-form": "^7.62.0",
+  "react-icons": "^5.5.0",
+  "react-router-dom": "^6.30.1",
+  "sonner": "^2.0.7",
+  "tailwindcss": "^4.1.11",
+  "victory": "^37.3.6",
+  "zustand": "^5.0.8",
+  "vite": "^7.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
@@ -30,7 +31,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
     "typescript": "~5.8.3",
-    "typescript-eslint": "^8.35.1",
-    "vite": "^7.0.4"
+    "typescript-eslint": "^8.35.1"
+    
   }
 }
