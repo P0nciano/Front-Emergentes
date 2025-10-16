@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx ts-node-dev --respawn index.ts",
-    "vercel-build": "npx prisma migrate deploy",
+    "vercel-build": "npx prisma migrate deploy"
     
   },
   "dependencies": {
